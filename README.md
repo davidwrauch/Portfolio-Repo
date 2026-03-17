@@ -58,10 +58,10 @@ Designed data collection workflows to support downstream modeling and analysis.
 🔗 https://github.com/davidwrauch/linksf
 Contributed to product strategy for a transportation and mobility platform integrating multiple data sources.
 
-### Predictive Analytics System (External Collaboration)
+### Pi-Ano (External Collaboration)
 
 🔗 https://github.com/benzittlau/pi_ano
-Led product and analytics design for a predictive modeling system, translating requirements into actionable insights.
+Led product and analytics design for a Raspberry Pi–based system that captured and automatically uploaded public piano performances to the cloud, creating a real-time pipeline from physical interaction to digital content at scale.
 
 </details>
 
