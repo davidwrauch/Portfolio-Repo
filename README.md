@@ -85,5 +85,5 @@ Led product and analytics design for a Raspberry Pi–based system that captured
 
 ## 🌐 Links
 
-* LinkedIn: https://www.linkedin.com/in/davidwrauch
+* LinkedIn: https://www.linkedin.com/in/david-rauch-32440276/
 * GitHub: https://github.com/davidwrauch
