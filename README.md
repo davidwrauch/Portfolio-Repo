@@ -6,6 +6,14 @@ Data scientist specializing in causal inference, experimentation, and behavioral
 
 ## 🔬 Selected Data Science Projects (Built by Me)
 
+## ⭐ Featured Project
+
+### Marketplace Labor Supply Simulator (NYC Ride-Hail Data)
+
+A simulation of a two-sided marketplace using real NYC ride-hail data to evaluate how compensation strategies affect fulfillment, worker earnings, and platform margin.
+
+👉 🔗 🔗 https://github.com/davidwrauch/World-Values-Matcher
+
 ### Causal Inference in Product Funnels
 
 Estimating the true impact of user behaviors using matching methods to separate correlation from causation
