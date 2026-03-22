@@ -12,7 +12,7 @@ Data scientist specializing in causal inference, experimentation, and behavioral
 
 A simulation of a two-sided marketplace using real NYC ride-hail data to evaluate how compensation strategies affect fulfillment, worker earnings, and platform margin.
 
-👉 🔗 🔗 https://github.com/davidwrauch/World-Values-Matcher
+👉 🔗 https://github.com/davidwrauch/World-Values-Matcher
 
 ### Causal Inference in Product Funnels
 
