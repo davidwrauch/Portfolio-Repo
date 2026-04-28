@@ -1,43 +1,71 @@
-# David Rauch — Data Scientist (Causal Inference & Product Analytics)
+# David Rauch — Data Scientist (Decision Systems, Causal Inference, Marketplaces)
 
-Data scientist specializing in causal inference, experimentation, and behavioral analytics. I focus on turning real-world systems into measurable, decision-driven outcomes, with experience contributing to large-scale economic and policy impact.
+Data scientist focused on building decision systems that connect user behavior, incentives, and business outcomes. Experience spans experimentation, causal inference, and marketplace dynamics, with projects emphasizing production-style pipelines and real-world decision-making.
 
 ---
 
-## 🔬 Selected Data Science Projects (Built by Me)
-
 ## ⭐ Featured Project
+
+### UK Market Intelligence System (ML + Pipeline + Decision Support)
+
+A production-style data system that ingests live UK job postings, estimates expected compensation, and identifies roles and companies paying above or below market.
+
+**Key capabilities:**
+- Automated data pipeline (API ingestion → BigQuery → model updates)
+- Machine learning model to estimate expected salary by role, location, and company
+- Company-level aggregation to analyze compensation strategies and hiring behavior
+- RAG-based LLM layer to generate grounded explanations of pay differences
+- Interactive app for exploring job and company-level signals
+
+**Core decision:**
+> Prioritize job opportunities based on expected value relative to market compensation
+
+**Tech stack:**
+Python (pandas, scikit-learn), SQL, BigQuery, Streamlit, Claude (RAG)
+
+🔗 *[Add repo link]*
+
+---
+
+## 🔬 Selected Data Science Projects
 
 ### Marketplace Labor Supply Simulator (NYC Ride-Hail Data)
 
-A simulation of a two-sided marketplace using real NYC ride-hail data to evaluate how compensation strategies affect fulfillment, worker earnings, and platform margin.
+Simulation of a two-sided marketplace using real NYC ride-hail data to evaluate how compensation strategies affect fulfillment, worker earnings, and platform margin.
 
-👉 🔗 https://github.com/davidwrauch/World-Values-Matcher
+🔗 https://github.com/davidwrauch/World-Values-Matcher
+
+---
 
 ### Causal Inference in Product Funnels
 
-Estimating the true impact of user behaviors using matching methods to separate correlation from causation
+Estimating the true impact of user behaviors using matching methods to separate correlation from causation.
+
 🔗 https://github.com/davidwrauch/causal-inference-propensity-score-product-funnel
+
+---
 
 ### World Values Matcher (ML + App)
 
-Predicts country alignment from survey responses using machine learning and deployed API
+Predicts country alignment from survey responses using machine learning and a deployed API-backed application.
+
 🔗 https://github.com/davidwrauch/World-Values-Matcher
+
+---
 
 ### Causal Forest Modeling
 
-Analyzing heterogeneous treatment effects using causal forests
+Analyzing heterogeneous treatment effects using causal forests.
+
 🔗 https://github.com/davidwrauch/Causal-Forest-for-Estimating-Heterogeneous-Treatment-Effects
+
+---
 
 ### Anomaly Detection in Financial Transactions
 
-Detecting rare events in highly imbalanced datasets with practical threshold tuning
+Detecting rare events in highly imbalanced datasets with practical threshold tuning.
+
 🔗 https://github.com/davidwrauch/Anomaly-Detection-in-Financial-Transactions
-
-### Scottish Climate Co-Benefits Analysis
-
-Data-driven exploration of climate policy impacts and equity considerations
-🔗 https://github.com/davidwrauch/Scottish-Climate-Action-Co-Benefits-Conversation-Guide
 
 ---
 
@@ -46,30 +74,25 @@ Data-driven exploration of climate policy impacts and equity considerations
 <details>
 <summary>Click to expand</summary>
 
-### Pedestrian Counter System
+### Pedestrian Counter System  
+🔗 https://github.com/davidwrauch/pedestrian-counter  
+Sensor-based system measuring pedestrian flow for urban planning decisions.
 
-🔗 https://github.com/davidwrauch/pedestrian-counter
-Led development of a sensor-based system to measure pedestrian flow for urban planning decisions.
+### Citygram Platform  
+🔗 https://github.com/davidwrauch/citygram-services  
+Civic engagement platform with analytics to measure user participation.
 
-### Citygram Platform (Civic Engagement System)
+### Screening & Data Collection Tool  
+🔗 https://github.com/davidwrauch/screenerClient  
+Data collection workflows designed to support downstream modeling.
 
-🔗 https://github.com/davidwrauch/citygram-services
-Led product development of a civic engagement platform connecting residents and government, including analytics for measuring engagement.
+### LinkSF (Mobility Platform)  
+🔗 https://github.com/davidwrauch/linksf  
+Transportation platform integrating multiple data sources.
 
-### Screening & Data Collection Tool
-
-🔗 https://github.com/davidwrauch/screenerClient
-Designed data collection workflows to support downstream modeling and analysis.
-
-### LinkSF (Mobility Platform)
-
-🔗 https://github.com/davidwrauch/linksf
-Contributed to product strategy for a transportation and mobility platform integrating multiple data sources.
-
-### Pi-Ano (External Collaboration)
-
-🔗 https://github.com/benzittlau/pi_ano
-Led product and analytics design for a Raspberry Pi–based system that captured and automatically uploaded public piano performances to the cloud, creating a real-time pipeline from physical interaction to digital content at scale.
+### Pi-Ano  
+🔗 https://github.com/benzittlau/pi_ano  
+Real-time pipeline capturing and uploading public piano performances.
 
 </details>
 
@@ -77,13 +100,14 @@ Led product and analytics design for a Raspberry Pi–based system that captured
 
 ## ⚙️ Skills
 
-* **Languages:** R, Python, SQL
-* **Methods:** Causal inference, A/B testing, forecasting, segmentation, machine learning
-* **Tools:** Snowflake, Tableau, Looker, Power BI
+- **Languages:** Python, R, SQL  
+- **Methods:** Causal inference, experimentation, forecasting, segmentation, machine learning  
+- **Data & Systems:** BigQuery, APIs, automated pipelines, feature engineering  
+- **Tools:** Snowflake, Tableau, Looker, Power BI  
 
 ---
 
 ## 🌐 Links
 
-* LinkedIn: https://www.linkedin.com/in/david-rauch-32440276/
-* GitHub: https://github.com/davidwrauch
+- LinkedIn: https://www.linkedin.com/in/david-rauch-32440276/  
+- GitHub: https://github.com/davidwrauch  
