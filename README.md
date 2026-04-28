@@ -23,7 +23,7 @@ A production-style data system that ingests live UK job postings, estimates expe
 **Tech stack:**
 Python (pandas, scikit-learn), SQL, BigQuery, Streamlit, Claude (RAG)
 
-🔗 *[Add repo link]*
+🔗 *https://github.com/davidwrauch/UK-Market-Intelligence-System*
 
 ---
 
