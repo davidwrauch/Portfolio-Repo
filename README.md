@@ -4,7 +4,28 @@ Data scientist focused on building decision systems that connect user behavior, 
 
 ---
 
-## ⭐ Featured Project
+## ⭐ Featured Projects
+
+### Marketplace Integrity Monitor (Fraud Detection + Moderation System)
+
+A Trust & Safety review system that identifies and prioritizes likely review manipulation using behavioral signals, anomaly detection, and explainable scoring.
+
+**Key capabilities:**
+- High-precision fraud detection combining multiple weak signals (not anomaly spam)
+- Review prioritization system tuned for human moderation workflows
+- Behavioral and reviewer-level features to surface manipulation patterns
+- Synthetic / templated language signal for generic or copied review content
+- Streamlit-based interface with persistent human-in-the-loop labeling
+
+**Core decision:**
+> Prioritize which reviews are worth a moderator’s time by focusing on high-confidence manipulation signals
+
+**Tech stack:**
+Python, PySpark, pandas, scikit-learn, Streamlit
+
+🔗 https://github.com/davidwrauch/Marketplace-Integrity-Monitor
+
+---
 
 ### UK Market Intelligence System (ML + Pipeline + Decision Support)
 
@@ -23,7 +44,7 @@ A production-style data system that ingests live UK job postings, estimates expe
 **Tech stack:**
 Python (pandas, scikit-learn), SQL, BigQuery, Streamlit, Claude (RAG)
 
-🔗 *https://github.com/davidwrauch/UK-Market-Intelligence-System*
+🔗 https://github.com/davidwrauch/UK-Market-Intelligence-System
 
 ---
 
@@ -34,14 +55,6 @@ Python (pandas, scikit-learn), SQL, BigQuery, Streamlit, Claude (RAG)
 Simulation of a two-sided marketplace using real NYC ride-hail data to evaluate how compensation strategies affect fulfillment, worker earnings, and platform margin.
 
 🔗 https://github.com/davidwrauch/World-Values-Matcher
-
----
-
-### Causal Inference in Product Funnels
-
-Estimating the true impact of user behaviors using matching methods to separate correlation from causation.
-
-🔗 https://github.com/davidwrauch/causal-inference-propensity-score-product-funnel
 
 ---
 
@@ -76,23 +89,18 @@ Detecting rare events in highly imbalanced datasets with practical threshold tun
 
 ### Pedestrian Counter System  
 🔗 https://github.com/davidwrauch/pedestrian-counter  
-Sensor-based system measuring pedestrian flow for urban planning decisions.
 
 ### Citygram Platform  
 🔗 https://github.com/davidwrauch/citygram-services  
-Civic engagement platform with analytics to measure user participation.
 
 ### Screening & Data Collection Tool  
 🔗 https://github.com/davidwrauch/screenerClient  
-Data collection workflows designed to support downstream modeling.
 
 ### LinkSF (Mobility Platform)  
 🔗 https://github.com/davidwrauch/linksf  
-Transportation platform integrating multiple data sources.
 
 ### Pi-Ano  
 🔗 https://github.com/benzittlau/pi_ano  
-Real-time pipeline capturing and uploading public piano performances.
 
 </details>
 
@@ -101,8 +109,8 @@ Real-time pipeline capturing and uploading public piano performances.
 ## ⚙️ Skills
 
 - **Languages:** Python, R, SQL  
-- **Methods:** Causal inference, experimentation, forecasting, segmentation, machine learning  
-- **Data & Systems:** BigQuery, APIs, automated pipelines, feature engineering  
+- **Methods:** Causal inference, experimentation, forecasting, segmentation, anomaly detection, machine learning  
+- **Data & Systems:** BigQuery, APIs, automated pipelines, feature engineering, model deployment  
 - **Tools:** Snowflake, Tableau, Looker, Power BI  
 
 ---
