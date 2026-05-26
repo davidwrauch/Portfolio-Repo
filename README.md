@@ -26,6 +26,9 @@ Designed to model how adaptive systems learn from user interactions while preser
 **Tech stack:**  
 Python, FastAPI, pandas, scikit-learn, pytest, Streamlit
 
+**Deployment notes:**  
+Built as a production-style local experimentation system with Streamlit and FastAPI components. The architecture is compatible with lightweight deployment platforms such as Streamlit Community Cloud, Render, Railway, or Hugging Face Spaces.
+
 🔗 https://github.com/davidwrauch/Contextual-Bandit-Experimentation-Platform
 
 ---
@@ -78,6 +81,30 @@ Python, pandas, Streamlit, Plotly, Reddit + GDELT ingestion
 
 ---
 
+### Adaptive Behavioral Intervention Platform
+
+A production-style adaptive intervention system combining contextual bandits, uplift modeling, off-policy evaluation, and drift monitoring to simulate real-world adaptive decision environments.
+
+Built around realistic experimentation workflows using both synthetic and real interaction data.
+
+**Key capabilities:**
+- Contextual bandit simulation environment with dynamic reward structures
+- Off-policy evaluation using IPS, SNIPS, and doubly robust estimators
+- Uplift modeling and subgroup treatment analysis
+- Drift monitoring and intervention diagnostics
+- FastAPI experimentation endpoints and structured logging
+- Real-data experimentation pipeline using MIND interaction data
+
+**Core decision:**
+> Continuously adapt interventions while preserving rigorous evaluation and monitoring
+
+**Tech stack:**  
+Python, FastAPI, pandas, scikit-learn, pytest, Streamlit
+
+🔗 https://github.com/davidwrauch/adaptive-experimentation-platform
+
+---
+
 ### Marketplace Integrity Monitor (Fraud Detection + Moderation System)
 
 A Trust & Safety review system that identifies and prioritizes likely review manipulation using behavioral signals, anomaly detection, and explainable scoring.
@@ -98,33 +125,6 @@ Python, PySpark, pandas, scikit-learn, Streamlit
 🔗 https://github.com/davidwrauch/Marketplace-Integrity-Monitor
 
 ---
-
-### Contextual Bandit Experimentation Platform (Adaptive Experimentation + OPE)
-
-A production-style adaptive experimentation platform simulating contextual bandit decision systems with off-policy evaluation, drift monitoring, and experimentation infrastructure.
-
-Designed to model how adaptive systems learn from user interactions while preserving rigorous evaluation and monitoring.
-
-**Key capabilities:**
-- Multiple contextual bandit policies (LinUCB, Thompson Sampling, epsilon-greedy)
-- Off-policy evaluation using IPS, SNIPS, and doubly robust estimators
-- Drift monitoring and behavioral diagnostics
-- Structured logged bandit feedback generation
-- Realistic experimentation pipelines with monitoring summaries and subgroup analysis
-- FastAPI endpoints and production-style evaluation workflow
-
-**Core decision:**
-> Dynamically allocate interventions while continuously learning which strategies work best for different contexts
-
-**Tech stack:**  
-Python, FastAPI, pandas, scikit-learn, pytest, Streamlit
-
-**Deployment notes:**  
-Built as a production-style local experimentation system with Streamlit and FastAPI components. The architecture is compatible with lightweight deployment platforms such as Streamlit Community Cloud, Render, Railway, or Hugging Face Spaces.
-
-🔗 https://github.com/davidwrauch/Contextual-Bandit-Experimentation-Platform
-
---
 
 ### DS Job Market Intelligence System (ML + Pipeline + Decision Support)
 
@@ -208,7 +208,7 @@ Detecting rare events in highly imbalanced datasets with practical threshold tun
 ## ⚙️ Skills
 
 - **Languages:** Python, R, SQL  
-- **Methods:** Causal inference, experimentation, contextual bandits, off-policy evaluation, forecasting, segmentation, anomaly detection, machine learning  
+- **Methods:** Causal inference, experimentation, contextual bandits, off-policy evaluation, forecasting, segmentation, anomaly detection, uplift modeling, machine learning  
 - **Data & Systems:** BigQuery, APIs, automated pipelines, feature engineering, model deployment, adaptive experimentation systems  
 - **Tools:** Snowflake, Tableau, Looker, Power BI, Streamlit, FastAPI  
 
