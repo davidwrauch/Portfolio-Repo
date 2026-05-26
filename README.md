@@ -189,5 +189,5 @@ Detecting rare events in highly imbalanced datasets with practical threshold tun
 
 ## 🌐 Links
 
-- LinkedIn: https://www.linkedin.com/in/david-rauch-32440276/  
+- LinkedIn: https://www.linkedin.com/in/davidwrauch  
 - GitHub: https://github.com/davidwrauch  
