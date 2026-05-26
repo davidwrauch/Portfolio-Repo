@@ -99,7 +99,34 @@ Python, PySpark, pandas, scikit-learn, Streamlit
 
 ---
 
-### Market Intelligence System (ML + Pipeline + Decision Support)
+### Contextual Bandit Experimentation Platform (Adaptive Experimentation + OPE)
+
+A production-style adaptive experimentation platform simulating contextual bandit decision systems with off-policy evaluation, drift monitoring, and experimentation infrastructure.
+
+Designed to model how adaptive systems learn from user interactions while preserving rigorous evaluation and monitoring.
+
+**Key capabilities:**
+- Multiple contextual bandit policies (LinUCB, Thompson Sampling, epsilon-greedy)
+- Off-policy evaluation using IPS, SNIPS, and doubly robust estimators
+- Drift monitoring and behavioral diagnostics
+- Structured logged bandit feedback generation
+- Realistic experimentation pipelines with monitoring summaries and subgroup analysis
+- FastAPI endpoints and production-style evaluation workflow
+
+**Core decision:**
+> Dynamically allocate interventions while continuously learning which strategies work best for different contexts
+
+**Tech stack:**  
+Python, FastAPI, pandas, scikit-learn, pytest, Streamlit
+
+**Deployment notes:**  
+Built as a production-style local experimentation system with Streamlit and FastAPI components. The architecture is compatible with lightweight deployment platforms such as Streamlit Community Cloud, Render, Railway, or Hugging Face Spaces.
+
+🔗 https://github.com/davidwrauch/Contextual-Bandit-Experimentation-Platform
+
+--
+
+### DS Job Market Intelligence System (ML + Pipeline + Decision Support)
 
 A production-style data system that ingests live UK job postings, estimates expected compensation, and identifies roles and companies paying above or below market.
 
